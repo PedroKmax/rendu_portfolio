@@ -17,11 +17,13 @@ li{
     font-family: "Epilogue";
     font-style: "Regular";
     font-size: 17px;
+    word-spacing: 15px;
     
 
     a{
         color: white;
         word-spacing: 15px;
+
     } 
 }
 
