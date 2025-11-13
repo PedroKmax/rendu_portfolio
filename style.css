@@ -1,0 +1,90 @@
+body{
+    background-color: white;
+}
+
+header{ 
+    background-color: black;
+    color: white;
+    padding: 30px;    
+}
+
+li{ 
+    text-decoration: none;
+    display: inline-block;
+    text-align: right;
+    padding: auto;
+    font-style: "Body";
+    font-family: "Epilogue";
+    font-style: "Regular";
+    font-size: 17px;
+    
+
+    a{
+        color: white;
+        word-spacing: 15px;
+    } 
+}
+
+ul{
+    float: right;
+}
+
+.container{
+    margin: 5px;
+    padding: 5px;
+    align-items: center;
+}
+
+.flex{
+    padding: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+
+    p1{
+        font-family: "Epilogue";
+        font-style: "SemiBold";
+        font-size: 17.33327865600586px;
+        line-height: 26px;
+    }
+
+    strong{
+        font-family: "Epilogue", sans-serif;
+        font-optical-sizing: auto;
+        font-size: 60px;
+        font-style: "SemiBold";
+    }
+
+    p2{
+        font-family:"Epilogue";
+        font-style: "Regular";
+        font-size: 14px;
+    }
+
+    button{
+        border: white;
+        line-height: 2.5px;
+        padding: 20px;
+        text-align: center;
+        color:black;
+        background-color:white;
+        border-radius: 5px;
+        height: 65px;
+        width: 300px;
+        
+    }
+
+    #a{
+        text-decoration: none;
+        color: black;
+        font-family: "Epilogue";
+        font-style:"SemiBold";
+        font-size: 17px;
+    }
+}
+
+.texte{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
