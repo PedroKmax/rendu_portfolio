@@ -195,21 +195,52 @@ h2 {
 
 .Tem{
  
-    background-color: rgb(202, 190, 190);
+    background-color: rgb(234, 229, 229);
     margin: auto;
-    width: 300px;
-    height: 500px;
-    padding: 30px;
+    width: 200px;
+    height: 300px;
+    padding: 20px;
    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
  
     img{
-        height: 70px;
-        width:70px;
-        border-radius: 50px;
+        height: 0px;
+        width:0px;
+        border-radius: 0px;
        
     }
  
+}
+
+#etoiles{
+    display: center;
+    flex-direction: row;
+    align-items: right;
+}
+
+#footer{
+    background-color: black;
+    height: 400px;
+
+    h3{
+        color: white;
+        text-align: center;
+    }
+
+    p{
+        color: white;
+    }
+
+}
+
+.phrase{
+    text-align: left
+}
+
+.form{
+    display: flex;
+    justify-items: flex-end;
+    flex-direction: row;
 }
